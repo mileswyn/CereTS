@@ -1,2 +1,2 @@
 # CereTS
-A method of Unsupervised domain adaptation on cerebralvascular between MRA and CTA. 
+A method of Unsupervised domain adaptation on cerebrovascular between MRA and CTA. The code will be released soon.
