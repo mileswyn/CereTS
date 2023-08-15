@@ -7,7 +7,7 @@ The complete code will be released soon.
  - To be released.
 
 ## 2. Environment
- - Please prepare an environment with python=3.8
+ - Please prepare an environment with python=3.8, and then use the command "pip install -r requirements.txt" for more dependencies. 
 
 ## 3. Train/Test
 
