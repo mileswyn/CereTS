@@ -32,7 +32,7 @@ def check_manual_seed(seed):
 
 def main_train(rank, worldsize):
     parser = argparse.ArgumentParser()
-    parser.add_argument('--name', type=str, default='/path/to/save/')
+    parser.add_argument('-name', required=True, type=str, default='/path/to/save/')
     parser.add_argument('--seed', type=int, default=10)
     parser.add_argument('--bs', type=int, default=2)
     opts = parser.parse_args()
