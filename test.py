@@ -11,10 +11,9 @@ from collections import OrderedDict
 import torch.nn.functional as F
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--ckpt_dir', type=str, default='')
-parser.add_argument('--ckpt_path', type=str, default='')
-parser.add_argument('--save_path', type=str, default='')
-parser.add_argument('--target_npy_dirpath', type=str, default='/data2/wyn/TMIresubmit/target_mra_test_npy_formal_extra_20/')
+parser.add_argument('--ckpt_path', required=True, type=str, default='path/to/ckpt')
+parser.add_argument('--save_path', required=True, type=str, default='path/to/save')
+parser.add_argument('--target_npy_dirpath', required=True, type=str, default='path/to/input')
 parser.add_argument('--bs', type=int, default=2)
 
 opts = parser.parse_args()
