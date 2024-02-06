@@ -10,7 +10,6 @@ from utils import calc_loss
 from collections import OrderedDict
 import torch.nn.functional as F
 
-### 适用于v84
 parser = argparse.ArgumentParser()
 parser.add_argument('--ckpt_dir', type=str, default='')
 parser.add_argument('--ckpt_path', type=str, default='')
