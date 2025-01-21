@@ -15,7 +15,7 @@ This repository provides a PyTorch implementation of our work. The paper is publ
 ## 1. Data preparation
  - The whole dataset consists of two parts, CTA dataset and TOF-MRA dataset. The TOF-MRA dataset comes from the IXI Dataset, collected from the Institute of Psychiatry. The CTA dataset is private.
  - If you want to use the data, please contact us (wangyinuo@buaa.edu.cn). We will share the CTA dataset after you fill out a questionnaire on data usage intention. Next we will update this process.
- - The preprocess code will be released soon.
+ - The preprocess code will be released.
 
 ## 2. Environment
  - Please prepare an environment with python=3.8, and then use the command "pip install -r requirements.txt" for more dependencies. 
