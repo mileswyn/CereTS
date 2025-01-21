@@ -34,4 +34,7 @@ python test.py -ckpt_path <your checkpoint path> -save_path <your save path> -ta
 ```
 
 ## Citation
- - To be released.
+If our paper or code is helpful to you, please consider citing our [paper](https://ieeexplore.ieee.org/abstract/document/10816501):
+```
+Y. Wang, C. Meng, Z. Tang, X. Bai, P. Ji and X. Bai, "Unsupervised Domain Adaptation for Cross-Modality Cerebrovascular Segmentation," in IEEE Journal of Biomedical and Health Informatics, doi: 10.1109/JBHI.2024.3523103.
+```
