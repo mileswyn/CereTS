@@ -1,5 +1,5 @@
 ## CereTS: [Unsupervised Domain Adaptation for Cross-Modality Cerebrovascular Segmentation]
-This repository provides a PyTorch implementation of our work. The paper is published on IEEE JBHI.
+This repository provides a PyTorch implementation of our work. The [paper](https://ieeexplore.ieee.org/abstract/document/10816501) is published on IEEE JBHI.
 
 ## Overview
 - **Model**: A novel unsupervised domain adaptation (UDA) framework with image-level, patch-level and feature-level alignments
